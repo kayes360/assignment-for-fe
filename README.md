@@ -15,7 +15,7 @@ To Check NPM(version >= 8 required)
 ```bash
   npm -v
 ```
-
+If node and npm not installed please install node and npm .If they are installed please continue with the process
 
 After that clone this git repository by pasting the following command in your cmd-
 
