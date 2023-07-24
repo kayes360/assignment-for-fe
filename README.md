@@ -2,7 +2,7 @@
 # assignment-for-fe
 
 Live Demo URL-
-https://github.com/kayes360/assignment-for-fe
+https://splendorous-sherbet-3d4dfd.netlify.app/
  
 To run this project locally please follow these steps.
 this project will require node and npm to check node and npm installed in your pc please run these following command in cmd-
