@@ -58,9 +58,39 @@ nav ul {
 .bg-grey {
   background-color: var(--grey) !important;
 }
+.header-shadow {
+  box-shadow: 0px 6px 4px 0px rgba(27, 83, 49, 0.24);
+}
+.custom-shadow-1 {
+  box-shadow: -9px -9px 16px 0px rgba(238, 238, 238, 0.6),
+    10px 10px 17px 0px rgba(193, 208, 195, 0.26);
+}
+.custom-shadow-2 {
+  box-shadow: -9px -9px 16px 0px rgba(238, 238, 238, 0.6),
+    10px 10px 17px 0px rgba(193, 208, 195, 0.26);
+}
+.custom-shadow-3 {
+  box-shadow: 10px 10px 17px 0px rgba(194, 209, 196, 0.15);
+}
+.custom-shadow-4 {
+  box-shadow: 0px 22px 30px 0px rgba(16, 112, 41, 0.08);
+}
+.custom-shadow-green {
+  box-shadow: -9px -9px 16px 0px rgba(255, 255, 255, 0.6),
+    12px 12px 20px 0px rgba(164, 198, 163, 0.5);
+}
 body {
   font-family: Roboto;
 }
+/* Header Section Style  */
+@media (width <= 330px) {
+  .header-logo-wrapper {
+    width: 180px;
+  }
+}
+/* Header Section Style End */
+
+
 /* Hero Section Style */
 .hero-title {
   font-weight: 400;
@@ -96,14 +126,22 @@ body {
     font-size: 55px;
   }
 }
+ 
+ 
+  /* .hero-img-wrapper{
+    height: 75vh;
+ 
+  }
+
+  .hero-img{
+    height: 100%;
+    width: 65%;
+    object-fit: cover;
+  } */
+ 
 @media (width <= 340px) {
   .hero-title {
     font-size: 45px;
-  }
-}
-@media (width <= 330px) {
-  .header-logo-wrapper {
-    width: 180px;
   }
 }
 
@@ -199,9 +237,6 @@ body {
 .service-section-list i {
   color: var(--mint);
 }
-.service-section-list li {
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
 
 /* Service Section Style End */
 
@@ -236,10 +271,7 @@ body {
   width: 150px;
   border-radius: 50%;
 }
-.custom-shadow {
-  box-shadow: -9px -9px 16px 0px rgba(238, 238, 238, 0.6),
-    10px 10px 17px 0px rgba(193, 208, 195, 0.26);
-}
+
 /* Available Service Section Style End */
 
 /* Current Client Section  */
@@ -305,9 +337,9 @@ footer {
   border-left: 1px solid #010c23;
   opacity: 0.15000000596046448;
 }
-footer ul { 
-  font-size: 18px; 
-  font-weight: 400; 
+footer ul {
+  font-size: 18px;
+  font-weight: 400;
   letter-spacing: 0.6px;
 }
 /* Footer Style End */

@@ -2,10 +2,10 @@ import React from "react";
 import HeroImg from "../assets/img/HeroImg.png";
 export default function Hero() {
   return (
-    <section className="row">
-      <div className="col-lg-6 col-md-6 col-sm-12 col-12">
-        <div className="d-flex flex-column align-item-start align-content-start mt-5">
-          <div className="hero-title">
+    <section className="row m-0 p-0">
+      <div className="col-lg-6 col-md-6 col-sm-12 col-12  ">
+        <div className=" d-flex flex-column align-items-center mt-5">
+          <div className="hero-title ms-5">
             <p>
               Lore <span>ipsum .</span>
             </p>
@@ -13,19 +13,20 @@ export default function Hero() {
               Dolor <span>sit .</span>
             </p>
           </div>
-          <p className="hero-text">
+         <div>
+         <p className="hero-text mx-auto w-50">
             Duis aute irure dolor in reprehenderit in voluptate velit esse
             cillum dolore eu fugiat nulla pariatu. Sed ut perspiciatis unde
             omnis iste natus error.
           </p>
-          <div className="d-flex flex-lg-row flex-md-row flex-sm-column flex-column">
+         </div>
+          <div className="d-flex flex-lg-row flex-md-row flex-sm-column flex-column   ms-4">
             <button className="btn btn-outline-dark custom-btn-text mx-2 px-5">
               Viverra orci sagittis
             </button>
 
             <button className="btn btn-light-green custom-btn-text mx-2 px-5 mt-lg-0 mt-md-0 mt-sm-3 mt-3">
               <svg
-
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
                 height="16"
@@ -40,8 +41,8 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <div className="col-lg-6 col-md-6 col-sm-12 col-12 mt-lg-0 mt-md-0 mt-sm-5 mt-5 d-flex justify-content-center">
-        <img src={HeroImg} alt="" className="img-fluid my-auto" />
+      <div className="col-lg-6 col-md-6 col-sm-12 col-12 mt-lg-0 mt-md-0 mt-sm-5 mt-5  d-flex justify-content-center hero-img-wrapper pe-0"> 
+          <img src={HeroImg} alt="" className="img-fluid hero-img my-auto  " /> 
       </div>
     </section>
   );

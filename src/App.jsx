@@ -15,9 +15,9 @@ import AvailableServiceSection from "./Components/AvailableServiceSection";
 function App() {
   return (
     <>
-      <div className="container">
         <Header />
         <Hero />
+      <div className="container">
         <TableSection />
         <ClientsSection />
         <CardSection />

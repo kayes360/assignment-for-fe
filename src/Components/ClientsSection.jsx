@@ -31,19 +31,19 @@ export default function ClientsSection() {
         <div className="col-lg-6 col-md-6 col-sm-12 col-12">
           <div className="d-flex justify-content-center">
             <div className="d-flex flex-column">
-              <div className="shadow rounded-3 m-3 p-3"><img src={GoogleAdsIcon} className="img-fluid client-section-img" alt="" /></div>
-              <div className="shadow rounded-3 m-3 p-3"><img src={FacebookIcon} className="img-fluid client-section-img" alt="" /></div>
-              <div className="shadow rounded-3 m-3 p-3"><img src={ShopifyIcon} className="img-fluid client-section-img" alt="" /></div>
+              <div className="custom-shadow-2 rounded-3 m-3 p-3"><img src={GoogleAdsIcon} className="img-fluid client-section-img" alt="" /></div>
+              <div className="custom-shadow-2 rounded-3 m-3 p-3"><img src={FacebookIcon} className="img-fluid client-section-img" alt="" /></div>
+              <div className="custom-shadow-2 rounded-3 m-3 p-3"><img src={ShopifyIcon} className="img-fluid client-section-img" alt="" /></div>
             </div>
             <div className="d-flex flex-column pt-5 mt-3">
-              <div className="shadow rounded-3 m-3 p-3"><img src={TiktokIcon} className="img-fluid client-section-img" alt="" /></div>
-              <div className="shadow rounded-3 m-3 p-3"><img src={PinterestIcon} className="img-fluid client-section-img" alt="" /></div>
-              <div className="shadow rounded-3 m-3 p-3"><img src={TwitterIcon} className="img-fluid client-section-img" alt="" /></div>
+              <div className="custom-shadow-2 rounded-3 m-3 p-3"><img src={TiktokIcon} className="img-fluid client-section-img" alt="" /></div>
+              <div className="custom-shadow-2 rounded-3 m-3 p-3"><img src={PinterestIcon} className="img-fluid client-section-img" alt="" /></div>
+              <div className="custom-shadow-2 rounded-3 m-3 p-3"><img src={TwitterIcon} className="img-fluid client-section-img" alt="" /></div>
             </div>
             <div className="d-flex flex-column">
-              <div className="shadow rounded-3 m-3 p-3"><img src={SnapChatIcon} className="img-fluid client-section-img" alt="" /></div>
-              <div className="shadow rounded-3 m-3 p-3"><img src={TaboolaIcon} className="img-fluid client-section-img" alt="" /></div>
-              <div className="shadow rounded-3 m-3 p-3"><img src={OutbrainIcon} className="img-fluid client-section-img" alt="" /></div>
+              <div className="custom-shadow-2 rounded-3 m-3 p-3"><img src={SnapChatIcon} className="img-fluid client-section-img" alt="" /></div>
+              <div className="custom-shadow-2 rounded-3 m-3 p-3"><img src={TaboolaIcon} className="img-fluid client-section-img" alt="" /></div>
+              <div className="custom-shadow-2 rounded-3 m-3 p-3"><img src={OutbrainIcon} className="img-fluid client-section-img" alt="" /></div>
             </div>
           </div>
         </div>

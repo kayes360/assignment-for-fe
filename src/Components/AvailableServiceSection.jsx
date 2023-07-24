@@ -17,23 +17,23 @@ export default function AvailableServiceSection() {
         <div className="col-lg-6 col-md-6 col-sm-12 col-12">
           <div className="d-flex justify-content-between align-items-center">
             <div>
-              <div className="rounded-3 custom-shadow p-3">
+              <div className="rounded-3 custom-shadow-1 p-3">
                 <img src={BarGraphGreen} alt="" className="img-fluid" />
               </div>
-              <div className="rounded-3 custom-shadow p-2 mt-2 text-center">
+              <div className="rounded-3 custom-shadow-1 p-2 mt-2 text-center">
                 <p className="m-0 fw-bold text-light-green ">First Touch</p>
               </div>
             </div>
             <div>
-              <div className="rounded-3 custom-shadow p-3">
+              <div className="rounded-3 custom-shadow-1 p-3">
                 <img src={BarGraphYellow} alt="" className="img-fluid" />
               </div>
-              <div className="rounded-3 custom-shadow p-2 mt-2 text-cente mt-2r mt-2">
+              <div className="rounded-3 custom-shadow-1 p-2 mt-2 text-cente mt-2r mt-2">
                 <p className="m-0 fw-bold text-light-orange ">Last Touch</p>
               </div>
             </div>
             <div>
-              <div className=" round-shape custom-shadow p-4 text-center">
+              <div className=" round-shape custom-shadow-1 p-4 text-center">
                  <h1 className="  m-0">3</h1>
                  <p className="fs-6 fw-bold m-0">+Custom <br /> Ones</p>
               </div>
