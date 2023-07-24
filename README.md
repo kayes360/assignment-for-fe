@@ -1,8 +1,42 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# assignment-for-fe
 
-Currently, two official plugins are available:
+Live Demo URL-
+https://github.com/kayes360/assignment-for-fe
+ 
+To run this project locally please follow these steps.
+this project will require node and npm to check node and npm installed in your pc please run these following command in cmd-
+ 
+To Check Node(version >= 16 required)
+```bash
+  node -v
+```
+To Check NPM(version >= 8 required)
+```bash
+  npm -v
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+After that clone this git repository by pasting the following command in your cmd-
+
+ ```bash
+git clone https://github.com/kayes360/assignment-for-fe.git
+```
+Next navigate to the project direactory by using this command-
+ ```bash
+cd assignment-for-fe
+```
+Next, in the project directory run this command in cmd to install dependencies-
+ ```bash
+npm i
+```
+Next,  you are all set. Now run this project using this command-
+ ```bash
+npm run dev
+```
+
+Finally, paste this url in your browser address bar to view the project-
+
+ ```bash
+http://localhost:5173/
+```
