@@ -90,7 +90,6 @@ body {
 }
 /* Header Section Style End */
 
-
 /* Hero Section Style */
 .hero-title {
   font-weight: 400;
@@ -126,19 +125,7 @@ body {
     font-size: 55px;
   }
 }
- 
- 
-  /* .hero-img-wrapper{
-    height: 75vh;
- 
-  }
 
-  .hero-img{
-    height: 100%;
-    width: 65%;
-    object-fit: cover;
-  } */
- 
 @media (width <= 340px) {
   .hero-title {
     font-size: 45px;
@@ -146,6 +133,7 @@ body {
 }
 
 /* Hero Section Style End */
+
 /* Table Section Style */
 .table-section-title {
   font-size: 40px;
